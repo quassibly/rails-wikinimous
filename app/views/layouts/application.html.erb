@@ -7,9 +7,26 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
 
   <body>
+    <div class="navbar-wagon">
+  <!-- Logo -->
+  <p>Don't Panic</p>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+
+
+
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <a href="/articles/new">New Article</a>
+    </div>
+  </div>
+</div>
     <%= yield %>
   </body>
 </html>
